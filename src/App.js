@@ -19,7 +19,9 @@ function App() {
   useEffect(() => {
     const colRef = query(collection(db, "todos"), orderBy("timestamp", "desc"));
     onSnapshot(colRef, (snapshot) => {
-      setTodos(snapshot.docs.map((doc) => doc.data().todo));
+      setTodos(
+        snapshot.docs.map((doc) => ({ id: doc.id, todo: doc.data().todo }))
+      );
     });
   }, []);
 
