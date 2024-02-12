@@ -11,7 +11,7 @@ const ImageCarousel = () => {
         <span></span>
         <span></span>
       </div>
-      <Splide 
+      <Splide
         options={{
           perPage: 1,
           arrows: true,
