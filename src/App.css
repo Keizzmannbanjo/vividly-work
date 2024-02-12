@@ -18,7 +18,7 @@ ul {
 }
 
 .app-container {
-  border: 5px solid #3643bd;
+  /* border: 5px solid #3643bd; */
   margin: 1rem;
   border-radius: 20px;
   padding: 1rem;
@@ -51,8 +51,12 @@ ul {
   }
 }
 
+.brand > .beta{
+  flex:1;
+}
+
 .brand > .brand-controls {
-  flex: 2;
+  flex: 1;
 }
 
 .top-nav-controls {
@@ -92,10 +96,18 @@ ul {
   & .carousel {
     height: 80vh;
     border-radius: 32px;
+    & .splide {
+      height: 100%;
+      & .splide__track {
+        height: 100%;
+      }
+    }
   }
   & .carousel > img {
     border-top-right-radius: 32px;
     border-top-left-radius: 32px;
+    display: block;
+    height: 100%;
   }
 }
 

@@ -130,7 +130,7 @@ const Brand = () => {
           />
         </svg>
       </div>
-      <div>BETA</div>
+      <div className="beta">BETA</div>
       <div className="brand-controls">
         <svg
           width="36"

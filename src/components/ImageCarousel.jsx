@@ -11,17 +11,17 @@ const ImageCarousel = () => {
         <span></span>
         <span></span>
       </div>
-      <Splide
+      <Splide 
         options={{
           perPage: 1,
           arrows: true,
           pagination: false,
           gap: "5rem",
-          drag: "free",
+          drag: "free", 
         }}
         aria-label="My Favorite Images"
       >
-        <SplideSlide>
+        <SplideSlide >
           <img src={clock} alt="Image 1" />
         </SplideSlide>
         <SplideSlide>
