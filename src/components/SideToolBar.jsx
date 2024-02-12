@@ -18,7 +18,10 @@ const SideToolBar = () => {
             </svg>
           </span>
           <a>Basic Adjust</a>
-          <span></span>
+          <span><svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.59675 0L13.5417 12.372L23.4867 0L26.5417 3.82749L13.5417 20L0.541748 3.82749L3.59675 0Z" fill="#2B3595"/>
+</svg>
+</span>
         </li>
         <li>
           <span><svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +29,10 @@ const SideToolBar = () => {
 </svg>
 </span>
           <a>Gamma</a>
-          <span></span>
+          <span><svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.59675 0L13.5417 12.372L23.4867 0L26.5417 3.82749L13.5417 20L0.541748 3.82749L3.59675 0Z" fill="#2B3595"/>
+</svg>
+</span>
         </li>
         <li>
           <span><svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +40,10 @@ const SideToolBar = () => {
 </svg>
 </span>
           <a>Blend Color</a>
-          <span></span>
+          <span><svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.59675 0L13.5417 12.372L23.4867 0L26.5417 3.82749L13.5417 20L0.541748 3.82749L3.59675 0Z" fill="#2B3595"/>
+</svg>
+</span>
         </li>
         <li>
           <span><svg width="35" height="38" viewBox="0 0 35 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +53,10 @@ const SideToolBar = () => {
 </svg>
 </span>
           <a>Doutone Effect</a>
-          <span></span>
+          <span><svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.59675 0L13.5417 12.372L23.4867 0L26.5417 3.82749L13.5417 20L0.541748 3.82749L3.59675 0Z" fill="#2B3595"/>
+</svg>
+</span>
         </li>
         <li>
           <span><svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +64,10 @@ const SideToolBar = () => {
 </svg>
 </span>
           <a>Swap Color</a>
-          <span></span>
+          <span><svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.59675 0L13.5417 12.372L23.4867 0L26.5417 3.82749L13.5417 20L0.541748 3.82749L3.59675 0Z" fill="#2B3595"/>
+</svg>
+</span>
         </li>
         <li>
           <span><svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +75,10 @@ const SideToolBar = () => {
 </svg>
 </span>
           <a>Advanced Edit</a>
-          <span></span>
+          <span><svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.59675 0L13.5417 12.372L23.4867 0L26.5417 3.82749L13.5417 20L0.541748 3.82749L3.59675 0Z" fill="#2B3595"/>
+</svg>
+</span>
         </li>
       </ul>
     </div>
