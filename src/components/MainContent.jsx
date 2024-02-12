@@ -1,7 +1,7 @@
-import { Preview } from "@mui/icons-material";
 import ImageCarousel from "./ImageCarousel";
 import SideNav from "./SideNav";
 import SideToolBar from "./SideToolBar";
+import Preview from "./Preview";
 
 const MainContent = () => {
   return (
