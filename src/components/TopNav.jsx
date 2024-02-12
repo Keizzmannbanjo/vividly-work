@@ -3,10 +3,10 @@ import lady from "../images/lady.png"
 
 const TopNav = () => {
   return (
-    <div>
+    <div className="top-nav">
       <Brand />
 
-      <div>
+      <div className="top-nav-controls">
         <button>Save</button>
         <button>Add to Download</button>
         <img src={lady} alt="Logged In User"/>

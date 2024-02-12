@@ -2,8 +2,8 @@ import React from "react";
 
 const Brand = () => {
   return (
-    <div>
-      <div>
+    <div className="brand">
+      <div className="brand-name">
         <svg
           width="46"
           height="47"
@@ -130,10 +130,8 @@ const Brand = () => {
           />
         </svg>
       </div>
-<div>
-  BETA
-</div>
-      <div>
+      <div>BETA</div>
+      <div className="brand-controls">
         <svg
           width="36"
           height="33"
@@ -146,8 +144,6 @@ const Brand = () => {
             fill="#2B3595"
           />
         </svg>
-      </div>
-      <div>
         <svg
           width="26"
           height="28"
