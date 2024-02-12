@@ -1,7 +1,7 @@
 
 const SideNav = () => {
   return (
-    <div>
+    <div className="side-nav">
         <ul>
             <li>
                 <a><span></span>Adjust</a>

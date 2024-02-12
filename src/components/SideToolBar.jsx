@@ -1,7 +1,7 @@
 
 const SideToolBar = () => {
   return (
-    <div>
+    <div className="side-toolbar">
       <ul>
         <li>
             <span></span>
