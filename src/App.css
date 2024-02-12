@@ -51,8 +51,8 @@ ul {
   }
 }
 
-.brand > .beta{
-  flex:1;
+.brand > .beta {
+  flex: 1;
 }
 
 .brand > .brand-controls {
@@ -96,12 +96,31 @@ ul {
   & .carousel {
     height: 80vh;
     border-radius: 32px;
+    padding: 1rem;
+    & .carousel-top-icons {
+      margin-bottom: 0.5rem;
+      width: 30%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      & span {
+        display: block;
+        & svg {
+          display: block;
+          width: 70%;
+        }
+      }
+    }
+    /* & .splide-wrapper {
+      height: 30vh;
+      margin-top: 2rem;
+    } */
   }
-  & .carousel > img {
-    border-top-right-radius: 32px;
-    border-top-left-radius: 32px;
+  & .carousel img {
     display: block;
-    height: 100%;
+    height: 50vh;
+    width: 80%;
+    margin:auto;
   }
 }
 
